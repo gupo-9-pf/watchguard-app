@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/appBarSwitch"
+        android:title="Switch"
+        app:actionLayout="@layout/switch_item"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/appBarUsers"
+        android:icon="@drawable/ic_person_pin_white"
+        android:title="Users"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/appBarLogOut"
+        android:icon="@drawable/ic_logout_white"
+        android:title="Logout"
+        app:showAsAction="always"/>
+</menu>
